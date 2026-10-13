@@ -1,27 +1,4 @@
-
-# Python environment
-.venv/
-venv/
-
-# Python cache
-__pycache__/
-*.py[cod]
-
-# Local databases and generated files
-*.db
-*.sqlite
-*.sqlite3
-
-# Environment variables and secrets
-.env
-.env.*
-!.env.example
-
-# Editor and operating system files
-.vscode/
-.DS_Store
-Thumbs.db
-a# Python environments
+# Virtual environments
 .venv/
 venv/
 env/
@@ -31,15 +8,20 @@ __pycache__/
 *.py[cod]
 .pytest_cache/
 
-# Secrets
-.env
-.env.*
-
-# Generated databases
+# Local databases
 *.db
 *.sqlite
 *.sqlite3
 
-# Generated outputs
-*.png
+# Secrets
+.env
+.env.*
+
+# Generated Gradio files
+.gradio/
+
+# Model weights
+*.pt
+
+# Generated output
 *.log
